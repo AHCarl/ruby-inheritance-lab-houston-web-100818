@@ -6,11 +6,11 @@ class Student < User
   end
   
   def learn(fact)
-    self.knowledge << fact
+    @knowledge << fact
   end
   
   def knowledge
-    self.knowledge
+    @knowledge
   end 
 
 end
